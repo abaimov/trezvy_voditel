@@ -86,6 +86,10 @@ export default function RootLayout({
         <ContainerProvider>
             <StickyMenu />
             {children}
+            <div className="bg-black w-full flex flex-col">
+               <div><a href={"/politica"}>Политика конфиденциальности</a></div> 
+                <div>УНП 190010170</div> 
+            </div>
         </ContainerProvider>
         </body>
         </html>
